@@ -6,10 +6,40 @@
     <title>Document</title>
 </head>
 <body>
-    
-
-    <i class="fab fa-500px fa-3x"></i>
-    <i class="fab fa-acquisitions-incorporated fa-3x"></i>
+    <div class="container">
+        <div class="row">
+         <div class="col">
+          <img src="https://github.com/john-smilga/js-wikiAPI-setup/blob/master/img/wiki.png?raw=true" class="img-fluid d-block mx-auto my-4" width="200" alt="">
+          <div class="feedback alert alert-danger text-capitalize text-center">
+           empty value
+          </div>
+          <form id="searchForm" class="my-3">
+           <div class="input-group">
+            <input type="text" class="form-control text-capitalize" id="search" placeholder="search wikipedia...">
+            <div class="input-group-append">
+             <button type="submit" class="text-capitalize blueBtn">search</button>
+            </div>
+           </div>
+          </form>
+          <img src="https://github.com/john-smilga/js-wikiAPI-setup/blob/master/img/loading.gif?raw=true" class="loading" alt="">
+         </div>
+        </div>
+       </div>
+       <div class="container">
+        <div class="row output">
+         <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+          <div class="card card-body">
+           <h1 class="card-title blueText">title</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, perferendis?</p>
+           <a href="#" target="_blank" class="my-2 text-capitalize">read
+            more...</a>
+      
+      
+          </div>
+      
+         </div>
+        </div>
+       </div>
     <script src="bundle.js"></script>
 </body>
 </html>
